@@ -1,0 +1,12 @@
+class AreaOfcircle
+    def sample
+      print "Enter radius = "
+      r = gets.chomp.to_i
+      temp = 2*3.14*r
+      puts "Parameter of circle = #{temp}"
+      area = 3.14*r*r
+      puts "Area of circle = #{area}"
+    end
+end
+obj = AreaOfcircle.new
+obj.sample
