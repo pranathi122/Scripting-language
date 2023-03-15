@@ -1,0 +1,13 @@
+
+class Name
+    def sample
+      print "Enter firstName = "
+      r = gets.chomp
+      print "Enter lastName = "
+      s = gets.chomp
+      puts "Full Name is #{r} #{s}"
+      puts "Full Name isreverse order #{s} #{r}"
+    end
+end
+obj = Name.new
+obj.sample
